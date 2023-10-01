@@ -2,6 +2,12 @@ sudo apt-get update
 # For Sql-client
 sudo apt-get install mysql-client
 
+#for pusing on github
+git add .
+git commit -m "saved code"
+git remote add origin2 "https://github.com/Sumit0000001/Aws-for-student.git"
+git push origin2 master
+
 # For python and related frameworks
 
 sudo apt-get install python3
